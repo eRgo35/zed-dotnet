@@ -1,0 +1,9 @@
+name = "XAML"
+grammar = "xml"
+path_suffixes = ["xaml"]
+block_comment = ["<!-- ", " -->"]
+brackets = [
+    { start = "<", end = ">", close = true, newline = true },
+    { start = "\"", end = "\"", close = true, newline = false },
+    { start = "{", end = "}", close = true, newline = false },
+]
