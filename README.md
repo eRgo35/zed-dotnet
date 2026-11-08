@@ -12,7 +12,7 @@ Visual Studio–style completion for controls, properties, values and resources,
 - formatting
 - the outline
 
-Works on Linux. There is no visual preview, because WPF doesn't run outside Windows.
+Works on Linux. There is no visual preview yet; to run the app itself on Linux, use Proton (Wine).
 
 ## Requirements
 
